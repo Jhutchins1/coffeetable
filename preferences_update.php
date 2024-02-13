@@ -1,6 +1,6 @@
 <?php
 	include 'database.php';
-	$query = "SELECT * FROM coffee ORDER BY name";
+	$query = "SELECT * FROM jhutchin_coffee ORDER BY name";
 	$java = mysqli_query($conn, $query);
 ?>
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
 
 <p class="middle">To update or delete a row, select it below.</p>
 
-<p class="middle">Then click the Submit button at the bottom of the table.</p>
+
 
 <!--
      the form below is handled by the PHP file named in the action= attribute
@@ -45,6 +45,7 @@
 	 $socks comes from that code.
 	 NOTE all form controls must have a name= attribute.
      -->
+
 <?php while ($row = mysqli_fetch_assoc($java)) :  ?>
 
 <tr>

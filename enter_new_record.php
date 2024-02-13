@@ -12,7 +12,7 @@
 
 <h1> Coffee Beverage: Enter New Drink </h1>
 
-<p class="middle"><a href="inventory_update.php">View full inventory</a></p>
+<p class="middle"><a href="preferences_update.php">View full inventory</a></p>
 
 <div id="java">
 

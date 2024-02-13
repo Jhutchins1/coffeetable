@@ -8,8 +8,8 @@
 
     // put your own values after the equals signs
     $server   = "localhost";
-    $username = "";
-    $password = "";
+    $username = "jhutchin_jhutchins";
+    $password = "Basket1234*";
     $database = "jhutchin_coffee";
 
     try {
